@@ -6,7 +6,7 @@ const OpenAI = require("openai");
 const app = express();
 app.use(cors());
 app.use(express.json());
-
+ 
 const openai = new OpenAI({
   apiKey: process.env.ECObot_key
 });
