@@ -27,7 +27,7 @@ app.post("/chat", async (req, res) => {
   }
 });
 
-app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+app.listen(3000, "0.0.0.0", () => console.log("Server running on http://0.0.0.0:3000"));
 app.get("/", (_req, res) => {
   res.send("EcoBot backend is running!");
 });
