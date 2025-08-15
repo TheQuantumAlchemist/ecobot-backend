@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 const openai = new OpenAI({
-  apiKey: process.env.MY_SECRET_OPENAI_API_KEY
+  apiKey: process.env.ECObot_key
 });
 
 // Chat route
